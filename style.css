@@ -1,0 +1,64 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(117, 202, 202);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Container{
+    height:90%;
+    width:15rem;
+    background-color:rgb(241, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px rgb(111, 124, 119);
+    padding: 1.5%;
+    text-align: center;
+}
+
+.Container img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    object-position:center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(61, 110, 91); 
+}
+
+.Container h1{
+    font-size: 24px;
+    margin: 3vh 0% 0.7vh 0%;
+}
+
+.Status{
+    color: red;
+    font-size: 18px;
+}
+
+.Container button {
+    position: relative;
+    width: 80%;
+    height: 8%;
+    top: 3vh;
+	color: rgb(252, 252, 252);
+	padding: 0.5%;
+    cursor: pointer;
+	border-radius: 20px;
+}
+
+#Add{
+    background: teal;
+    border: 1px solid rgb(43, 110, 110);
+}
+
+#Remove{
+    background: rgb(190, 56, 56);
+    border: 1px solid rgb(136, 13, 13);
+}
